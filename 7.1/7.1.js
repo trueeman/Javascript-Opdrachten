@@ -4,7 +4,7 @@ function geld() {
     let budget= 100;
     
     if ( budget > product ) {
-        document.getElementById("h1").innerHTML = "Helaas, te weinig geldt";
+        document.getElementById("h1").innerHTML = "Helaas, te weinig geld";
         document.getElementById("h1").style.color = "red";
     }
     else {
